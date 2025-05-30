@@ -1,12 +1,12 @@
 import { Text, View,StyleSheet } from "react-native";
-import {Link} from 'expo-router';
+// import {Link} from 'expo-router';
 export default function Index() {
   return (
     <View
       style={styles.view}
     >
       <Text>index.tsx screen.</Text>
-      <Link href="/Login" style={styles.navButton}>Go to Login</Link>
+      {/* <Link href="/Login" style={styles.navButton}>Go to Login</Link> */}
     </View>
   );
 }
