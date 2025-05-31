@@ -6,7 +6,6 @@ export default function Index() {
       style={styles.view}
     >
       <Text>index.tsx screen.</Text>
-      {/* <Link href="/Login" style={styles.navButton}>Go to Login</Link> */}
     </View>
   );
 }
